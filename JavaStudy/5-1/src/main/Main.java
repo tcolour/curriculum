@@ -39,7 +39,7 @@ public class Main {
         arrayDate[1] = month;
         arrayDate[2] = date;   
         
-        List<int[]>list= Arrays.asList(arrayDate);
+        ArrayList<Integer>list= new ArrayList<Integer>(Arrays.asList(year,month,date));
         
         for(int element: arrayDate){
         	System.out.println(element);
