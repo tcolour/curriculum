@@ -41,7 +41,7 @@ public class Main {
         
         ArrayList<Integer>list= new ArrayList<Integer>(Arrays.asList(year,month,date));
         
-        for(int element: arrayDate){
+        for(int element: list){
         	System.out.println(element);
         }   
 		}
